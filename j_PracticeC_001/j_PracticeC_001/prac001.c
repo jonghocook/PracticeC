@@ -1,4 +1,5 @@
-/* hello_while.c */
+/* hello_while.c 
+반복조건이 만족하는 동안 내용을 반복 */
 #include <stdio.h>
 
 int main(void) {
