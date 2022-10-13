@@ -5,14 +5,14 @@
 
 int main(void)
 {
-    int text=0, num=1;
-    printf("Hello World를 몇 번 입력할까요? \n");
-    scanf("%d", &text);
+    int text=0, num=1;                              //변수 선언
+    printf("Hello World를 몇 번 입력할까요? \n");        //텍스트 출력
+    scanf("%d", &text);                             //입력값
 
-    while(num<=text)
+    while(num<=text)                                //num의 값이 text의 값이 될 때 까지 헬로월드를 출력하게 한다
     {
         printf("Hello World \n");
-        num++;
+        num++;                                       //num이 후위증가한다
     }
     return 0;
 }
