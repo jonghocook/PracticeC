@@ -5,14 +5,16 @@
 
 int main(void)
 {
-    int num=0, cnt=0;
+    int num=0;
+    int cnt=1;
+
     printf("3의 배수를 몇번 출력할까요? \n");
     scanf("%d", &num);
 
-    while(cnt<num)
+    while(cnt<=num)
     {
-        printf("%d", 3*cnt);
-        num++;
+        printf("%d ", 3 * cnt);     
+        cnt++;
     }
     return 0;
 }
