@@ -1,25 +1,25 @@
+//문제 5
 
 #include <stdio.h>
 
 int main(void)
 {
-    int dan1=2;
-    int dan2=0;
+    int star;
+    int circle=0;
 
-    while (dan1<10)
+    while (star<5)
     {
-        dan2=1;
-        while (dan2<10)
+        while (circle<star)
         {
-            printf("%dX%d=%d \n", dan1, dan2, dan1*dan2);
-            dan2++;
+            printf("o");
+            circle++;
         }
 
-        dan1++;
+        circle=0;
+        printf("* \n");
+        star++;
+    
     }
 
     return 0;
-    
-    
-    
 }
