@@ -1,25 +1,18 @@
-//문제 5
+
 
 #include <stdio.h>
 
 int main(void)
 {
-    int star;
-    int circle=0;
+    int total=0, num=0;
 
-    while (star<5)
+    do
     {
-        while (circle<star)
-        {
-            printf("o");
-            circle++;
-        }
+        printf("정수 입력 :(0 to quit) : ");
+        scanf("%d", &num);
+        total+=num;
 
-        circle=0;
-        printf("* \n");
-        star++;
-    
-    }
-
+    } while (num!=0);
+    printf("합계 : %d \n", total);
     return 0;
 }
