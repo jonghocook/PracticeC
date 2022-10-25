@@ -1,3 +1,5 @@
+//문제1_do~while문을 while문으로 바꿔보기
+
 #include <stdio.h>
 
 int main(void)
