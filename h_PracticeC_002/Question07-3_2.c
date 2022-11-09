@@ -11,13 +11,12 @@ int main(void)
     do
     {
         num=num+2;
-        num+=total;
+        total+=num;
 
     } while (num<=100);
     
-    printf("0~100까지의 짝수 합 : %d",total);
+    printf("0~100까지의 짝수 합 : %d \n",total);
 
     return 0;
 }
 
-//이거 왜 안되는지 이해가안감 답 배꼈는뎅
