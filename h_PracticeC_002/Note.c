@@ -9,7 +9,7 @@ int main(void)
    printf("0부터 입력한 수 까지의 덧셈 : \n");
    scanf("%d", &num);
 
-   for (i=0; i<num+1; i++)
+   for (i=0; i<=num; i++)
     total+=i;
 
     printf("0부터 %d 까지의 덧셈 결과 : %d \n", num, total);
