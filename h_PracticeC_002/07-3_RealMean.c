@@ -4,18 +4,18 @@
 
 int main(void)
 {
-   int total=0;
-   int i, num;
-   printf("0부터 입력한 수 까지의 덧셈 : \n");
-   scanf("%d", &num);
+    double total=0.0;
+    double input=0.0;
+    int num=0;
 
-   for (i=0; i<=num; i++)
-    total+=i;
+    for( ; input>=0.0 ; )
+    {
+        total+=input;
+        printf("실수 입력 (minus to quit) : ");
+        scanf("%lf", &input);
+        num++;
+    }
+    printf("평균: %f \n", total/(num-1));
 
-    printf("0부터 %d 까지의 덧셈 결과 : %d \n", num, total);
-   
-   
-
-         
     return 0;
 }
