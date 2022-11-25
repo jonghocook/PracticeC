@@ -16,6 +16,8 @@ int main(void)
         num++;
     }
     printf("평균: %f \n", total/(num-1));
-
     return 0;
 }
+
+
+ // -1.0 조건을 위해 식이 4번 진행되기때문에 num-1 이 추가된다
