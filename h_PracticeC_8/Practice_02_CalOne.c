@@ -10,7 +10,7 @@ int main(void)
     printf("선택 :  ");
     scanf("%d", &opt);
     printf("두 개의 실수 입력 : ");
-    scanf("%lf,%lf", &num1, num2);
+    scanf("%lf %lf", &num1, &num2);
 
     if(opt==1)
         result = num1+num2;
@@ -28,4 +28,4 @@ int main(void)
 
     return 0;
 
-}
+}       //이거 왜 예제 똑같이 했는데 안되지
