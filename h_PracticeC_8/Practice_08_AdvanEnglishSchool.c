@@ -11,8 +11,17 @@ int main(void)
     {
     case 'M':
     case 'm':
+        printf("Morning \n");
+        break;
+    case 'A':
+    case 'a':
+        printf("Afternoon \n");
+        break;
+    case 'E':
+    case 'e':
+        printf("Evening \n");
+        break;
     }
 
-    }
     return 0;
 }
